@@ -17,14 +17,7 @@ public class Person implements Serializable {
     private String deathInfo;
     private List<Building> buildings;
     private List<Property> properties;
-    
-    public Person() {
-    }
-    
-    public Person copyUser() {
-    	return this;
-    }
-    
+
     /* 
      * Luodaan henkilö kannassa olevilla tiedoilla, jotka saadaan parametrina
      */
